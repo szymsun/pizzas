@@ -6,15 +6,14 @@
 			"path" : "/usr/sbin/git"
 		}
 	],
-	"backtrace" : 10,
+	"backtrace" : 9,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
 			"add_executable",
 			"find_package",
-			"_ep_add_download_command",
-			"__FetchContent_populateDirect",
+			"__FetchContent_populateSubbuild",
 			"__FetchContent_doPopulation",
 			"cmake_language",
 			"__FetchContent_Populate",
@@ -23,7 +22,6 @@
 		"files" : 
 		[
 			"/usr/share/cmake/Modules/FindGit.cmake",
-			"/usr/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake",
 			"/usr/share/cmake/Modules/FetchContent.cmake",
 			"/usr/share/cmake/Modules/FetchContent.cmake:2158:EVAL",
 			"CMakeLists.txt"
@@ -31,63 +29,57 @@
 		"nodes" : 
 		[
 			{
-				"file" : 4
+				"file" : 3
 			},
 			{
-				"command" : 7,
-				"file" : 4,
+				"command" : 6,
+				"file" : 3,
 				"line" : 16,
 				"parent" : 0
 			},
 			{
-				"command" : 6,
-				"file" : 2,
+				"command" : 5,
+				"file" : 1,
 				"line" : 2399,
 				"parent" : 1
 			},
 			{
-				"command" : 5,
-				"file" : 2,
+				"command" : 4,
+				"file" : 1,
 				"line" : 2158,
 				"parent" : 2
 			},
 			{
-				"file" : 3,
+				"file" : 2,
 				"parent" : 3
-			},
-			{
-				"command" : 4,
-				"file" : 3,
-				"line" : 2,
-				"parent" : 4
 			},
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 1620,
-				"parent" : 5
+				"line" : 2,
+				"parent" : 4
 			},
 			{
 				"command" : 2,
-				"file" : 2,
-				"line" : 1703,
-				"parent" : 6
+				"file" : 1,
+				"line" : 1622,
+				"parent" : 5
 			},
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 926,
-				"parent" : 7
+				"line" : 1887,
+				"parent" : 6
 			},
 			{
 				"file" : 0,
-				"parent" : 8
+				"parent" : 7
 			},
 			{
 				"command" : 0,
 				"file" : 0,
 				"line" : 179,
-				"parent" : 9
+				"parent" : 8
 			}
 		]
 	},

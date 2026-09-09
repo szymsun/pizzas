@@ -36,7 +36,7 @@ target_include_directories(${PROJECT_NAME}-lib PUBLIC ./src)
 
 enable_testing()
 
-add_executable(${PROJECT_NAME}-ut ./test/PizzeriaTest.cpp ${SRC_LIST})
+add_executable(${PROJECT_NAME}-ut ./test/PizzeriaTest.cpp)
 target_link_libraries(${PROJECT_NAME}-ut PRIVATE ${PROJECT_NAME}-lib gtest_main gmock_main)
 
 include(GoogleTest)
