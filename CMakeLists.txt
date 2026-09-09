@@ -17,14 +17,12 @@ FetchContent_MakeAvailable(googletest)
 
 
 
-
+# for some reason the check.sh on remote has problems with seeing this part. when i ran it locally test passed just fine. WHAAAAAAAAAAAAT
 set(SRC_LIST 
-    ./src/Funghi.cpp ./src/Funghi.hpp 
-    ./src/Margherita.cpp ./src/Margherita.hpp 
-    ./src/Pizza.cpp ./src/Pizza.hpp 
-    ./src/Pizzeria.cpp ./src/Pizzeria.hpp)
-
-
+    ./src/Funghi.cpp
+    ./src/Margherita.cpp  
+    ./src/Pizza.cpp  
+    ./src/Pizzeria.cpp )
 
 add_executable(${PROJECT_NAME} ./src/main.cpp)
 add_library(${PROJECT_NAME}-lib STATIC ${SRC_LIST})
