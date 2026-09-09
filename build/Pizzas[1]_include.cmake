@@ -1,0 +1,5 @@
+if(EXISTS "/home/cheese/workspace/pizzas/build/Pizzas[1]_tests.cmake")
+  include("/home/cheese/workspace/pizzas/build/Pizzas[1]_tests.cmake")
+else()
+  add_test(Pizzas_NOT_BUILT Pizzas_NOT_BUILT)
+endif()

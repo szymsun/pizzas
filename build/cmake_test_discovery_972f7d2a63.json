@@ -1,0 +1,32 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "PizzeriaTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "priceForMargherita25AndFunghi30ShouldBe55",
+          "file": "\/home\/cheese\/workspace\/pizzas\/test\/PizzeriaTest.cpp",
+          "line": 18
+        },
+        {
+          "name": "bakeDummyPizza",
+          "file": "\/home\/cheese\/workspace\/pizzas\/test\/PizzeriaTest.cpp",
+          "line": 31
+        },
+        {
+          "name": "completeOrderWithStubPizza",
+          "file": "\/home\/cheese\/workspace\/pizzas\/test\/PizzeriaTest.cpp",
+          "line": 41
+        },
+        {
+          "name": "calculatePriceForPizzaMock",
+          "file": "\/home\/cheese\/workspace\/pizzas\/test\/PizzeriaTest.cpp",
+          "line": 52
+        }
+      ]
+    }
+  ]
+}
